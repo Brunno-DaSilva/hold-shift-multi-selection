@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Hold Shift Multi-Selection</title>
+
+    <!--Main Style -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!--FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-items">
+          <div>
+            <img
+              src="https://res.cloudinary.com/duprwuo4j/image/upload/c_scale,w_155/v1574831158/imgs_starwars/imgs/BLOGO_k36v5y.png"
+              alt="logo"
+            />
+          </div>
+          <div><a href="index.html">Home</a></div>
+          <div><a href="/about/about.html">About</a></div>
+          <div><a href="/contact/contact.html">Contact</a></div>
+        </div>
+      </div>
+      <div class="title">
+        <h1>Drawing Board</h1>
+        <button onClick="document.location.reload(true)">
+          Reload
+        </button>
+      </div>
+    </header>
+
+    <div class="inbox">
+      <div class="item">
+        <input type="checkbox" />
+        <p>This is an inbox layout.</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Check one item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Hold down your Shift key</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Check a lower item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Everything in between should also be set to checked</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Try to do it without any libraries</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Just regular JavaScript</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Good Luck!</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Don't forget to tweet your result!</p>
+      </div>
+    </div>
+
+    <footer>
+      <img
+        src="https://res.cloudinary.com/duprwuo4j/image/upload/c_scale,w_155/v1574831158/imgs_starwars/imgs/BLOGO_k36v5y.png"
+        alt="logo"
+      />
+      <p>&copy 2020 Bruno DaSilva<span> Front-End Developer</span></p>
+      <div class="info-Bruno">
+        <p>More Projects</p>
+        <a href="https://github.com/DaSilvaBrunoTexas" target="_blank"
+          ><i class="fab fa-github-alt"></i
+        ></a>
+
+        <a href="https://www.linkedin.com/in/bruno-dasilva/" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <a href="http://bruno-dasilva.com/" target="_blank">
+          <i class="fas fa-globe-americas"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
