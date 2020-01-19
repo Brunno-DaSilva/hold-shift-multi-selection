@@ -144,9 +144,12 @@ input:checked + p {
   background: #f8fbfc;
   text-decoration: line-through;
 }
-
 input[type="checkbox"] {
   margin: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #555;
 }
 
 p {
