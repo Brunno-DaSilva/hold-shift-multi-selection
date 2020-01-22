@@ -31,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden;
 }
 
 *,
@@ -205,9 +204,14 @@ footer .info-Bruno {
   text-align: center;
 }
 
+footer p {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
 .info-Bruno p {
   color: var(--light-font-color-title);
   font-size: 1.8rem;
+  border: none;
 }
 
 .info-Bruno a {
