@@ -12,6 +12,6 @@
 #100DaysOfCode Challange
 ```
 
-##### Demo: https://dasilvabrunotexas.github.io/hold-shift-multi-selection/
+### Demo: https://brunno-dasilva.github.io/hold-shift-multi-selection/
 
 
